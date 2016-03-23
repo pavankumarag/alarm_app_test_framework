@@ -1,0 +1,56 @@
+2016:03:23T15:37:26      INFO      -----START------
+2016:03:23T15:37:26      INFO      We are in setup, creating alarm obj
+2016:03:23T15:37:26      INFO      =====Functional test for ADD feature=====
+2016:03:23T15:37:26      INFO      PASS : Data integrity test for title
+2016:03:23T15:37:26      INFO      PASS : Data integrity test for fire_time
+2016:03:23T15:37:26      INFO      PASS : Data integrity test for repeat
+2016:03:23T15:37:26      INFO      PASS : Data integrity test for title
+2016:03:23T15:37:26      INFO      PASS : Add function adds one alarm
+2016:03:23T15:37:26      INFO      We are in tear down, clearing all the alarms
+2016:03:23T15:37:26      INFO      -----START------
+2016:03:23T15:37:26      INFO      We are in setup, creating alarm obj
+2016:03:23T15:37:26      INFO      =====Functional test for UPDATE feature=====
+2016:03:23T15:37:26      INFO      PASS : Update Data integrity test for title
+2016:03:23T15:37:26      INFO      PASS : Update Data integrity test for fire_time
+2016:03:23T15:37:26      INFO      PASS : Update Data integrity test for repeat
+2016:03:23T15:37:26      INFO      PASS : Update function just updates an alarm and not addition
+2016:03:23T15:37:26      INFO      PASS : Update function just updates an alarm and not addition
+2016:03:23T15:37:26      INFO      PASS : Update Data integrity test for title
+2016:03:23T15:37:26      INFO      We are in tear down, clearing all the alarms
+2016:03:23T15:37:26      INFO      -----START------
+2016:03:23T15:37:26      INFO      We are in setup, creating alarm obj
+2016:03:23T15:37:26      INFO      =====Functional test for UPDATE feature======
+2016:03:23T15:37:26      INFO      PASS : Remove function successfully deletes an alarm
+2016:03:23T15:37:26      INFO      PASS : Remove function successfully deletes an alarm
+2016:03:23T15:37:26      INFO      We are in tear down, clearing all the alarms
+2016:03:23T15:37:26      INFO      -----START------
+2016:03:23T15:37:26      INFO      We are in setup, creating alarm obj
+2016:03:23T15:37:26      INFO      =====Functional test for CLEAR feature=====
+2016:03:23T15:37:26      INFO      PASS : Successfully added 3 3 alarms
+2016:03:23T15:37:26      INFO      PASS : Successfully cleared all alarms; 0 0 alarms
+2016:03:23T15:37:26      INFO      We are in tear down, clearing all the alarms
+2016:03:23T15:37:26      INFO      -----START------
+2016:03:23T15:37:26      INFO      We are in setup, creating alarm obj
+2016:03:23T15:37:26      INFO      =====Functional test for COUNT feature=====
+2016:03:23T15:37:26      INFO      PASS : Successfully count is reflected after addition 1 1 alarms
+2016:03:23T15:37:26      INFO      PASS : Successfully count is reflected after addition 2 2 alarms
+2016:03:23T15:37:26      INFO      PASS : Successfully count is reflected after deletion of alarm  1 1 alarms
+2016:03:23T15:37:26      INFO      We are in tear down, clearing all the alarms
+2016:03:23T15:37:26      INFO      -----START------
+2016:03:23T15:37:26      INFO      We are in setup, creating alarm obj
+2016:03:23T15:37:26      INFO      =====Functional test for GET feature=====
+2016:03:23T15:37:26      INFO      PASS : GET feature functional test for title
+2016:03:23T15:37:26      INFO      PASS : GET feature functional test for fire_time
+2016:03:23T15:37:26      INFO      PASS : GET feature functional test for repeat
+2016:03:23T15:37:26      INFO      PASS : GET feature functional test for title
+2016:03:23T15:37:26      INFO      We are in tear down, clearing all the alarms
+2016:03:23T15:37:26      INFO      -----START------
+2016:03:23T15:37:26      INFO      We are in setup, creating alarm obj
+2016:03:23T15:37:26      INFO      =====Testing GET functionality for non existant ID=====
+2016:03:23T15:37:26      ERROR      Alarm not found for the given ID
+2016:03:23T15:37:26      INFO      We are in tear down, clearing all the alarms
+2016:03:23T15:37:26      INFO      -----START------
+2016:03:23T15:37:26      INFO      We are in setup, creating alarm obj
+2016:03:23T15:37:26      INFO      =====Testing REMOVE functionality for non existant ID=====
+2016:03:23T15:37:26      ERROR      Alarm not found for the given ID
+2016:03:23T15:37:26      INFO      We are in tear down, clearing all the alarms

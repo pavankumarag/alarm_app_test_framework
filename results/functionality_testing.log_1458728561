@@ -1,0 +1,73 @@
+2016:03:23T15:52:41      INFO      debug mode turned on
+2016:03:23T15:52:41      INFO      -----START------
+2016:03:23T15:52:41      INFO      We are in setup, creating alarm obj
+2016:03:23T15:52:41      INFO      =====Functional test for ADD feature=====
+2016:03:23T15:52:41      INFO      PASS : Data integrity test for title
+2016:03:23T15:52:41      INFO      PASS : Data integrity test for fire_time
+2016:03:23T15:52:41      INFO      PASS : Data integrity test for repeat
+2016:03:23T15:52:41      INFO      PASS : Data integrity test for title
+2016:03:23T15:52:41      INFO      PASS : Add function adds one alarm
+2016:03:23T15:52:41      DEBUG      {0: {'fire_time': 'Tue Mar 22 00:59:30 IST 2016', 'repeat': False, 'title': 'New alarm test'}, 1: {'fire_time': 'Tue Mar 22 00:59:30 IST 2016', 'repeat': False, 'title': 'New alarm testanother'}}
+2016:03:23T15:52:41      INFO      We are in tear down, clearing all the alarms
+2016:03:23T15:52:41      DEBUG      {}
+2016:03:23T15:52:41      INFO      -----START------
+2016:03:23T15:52:41      INFO      We are in setup, creating alarm obj
+2016:03:23T15:52:41      INFO      =====Functional test for UPDATE feature=====
+2016:03:23T15:52:41      INFO      PASS : Update Data integrity test for title
+2016:03:23T15:52:41      INFO      PASS : Update Data integrity test for fire_time
+2016:03:23T15:52:41      INFO      PASS : Update Data integrity test for repeat
+2016:03:23T15:52:41      INFO      PASS : Update function just updates an alarm and not addition
+2016:03:23T15:52:41      INFO      PASS : Update function just updates an alarm and not addition
+2016:03:23T15:52:41      INFO      PASS : Update Data integrity test for title
+2016:03:23T15:52:41      DEBUG      {0: {'fire_time': 'Tue Mar 23 00:59:30 IST 2016', 'repeat': True, 'title': 'New alarm test update'}, 1: {'fire_time': 'Tue Mar 23 00:59:30 IST 2016', 'repeat': True, 'title': 'New alarm test update And another'}}
+2016:03:23T15:52:41      INFO      We are in tear down, clearing all the alarms
+2016:03:23T15:52:41      DEBUG      {}
+2016:03:23T15:52:41      INFO      -----START------
+2016:03:23T15:52:41      INFO      We are in setup, creating alarm obj
+2016:03:23T15:52:41      INFO      =====Functional test for UPDATE feature======
+2016:03:23T15:52:41      INFO      PASS : Remove function successfully deletes an alarm
+2016:03:23T15:52:41      INFO      PASS : Remove function successfully deletes an alarm
+2016:03:23T15:52:41      DEBUG      {1: {'fire_time': 'Tue Mar 22 00:59:30 IST 2016', 'repeat': False, 'title': 'New alarm test another'}}
+2016:03:23T15:52:41      INFO      We are in tear down, clearing all the alarms
+2016:03:23T15:52:41      DEBUG      {}
+2016:03:23T15:52:41      INFO      -----START------
+2016:03:23T15:52:41      INFO      We are in setup, creating alarm obj
+2016:03:23T15:52:41      INFO      =====Functional test for CLEAR feature=====
+2016:03:23T15:52:41      INFO      PASS : Successfully added 3 3 alarms
+2016:03:23T15:52:41      INFO      PASS : Successfully cleared all alarms; 0 0 alarms
+2016:03:23T15:52:41      DEBUG      {}
+2016:03:23T15:52:41      INFO      We are in tear down, clearing all the alarms
+2016:03:23T15:52:41      DEBUG      {}
+2016:03:23T15:52:41      INFO      -----START------
+2016:03:23T15:52:41      INFO      We are in setup, creating alarm obj
+2016:03:23T15:52:41      INFO      =====Functional test for COUNT feature=====
+2016:03:23T15:52:41      INFO      PASS : Successfully count is reflected after addition 1 1 alarms
+2016:03:23T15:52:41      INFO      PASS : Successfully count is reflected after addition 2 2 alarms
+2016:03:23T15:52:41      INFO      PASS : Successfully count is reflected after deletion of alarm  1 1 alarms
+2016:03:23T15:52:41      DEBUG      {0: {'fire_time': 'Tue Mar 22 00:59:30 IST 2016', 'repeat': False, 'title': 'New alarm test'}}
+2016:03:23T15:52:41      INFO      We are in tear down, clearing all the alarms
+2016:03:23T15:52:41      DEBUG      {}
+2016:03:23T15:52:41      INFO      -----START------
+2016:03:23T15:52:41      INFO      We are in setup, creating alarm obj
+2016:03:23T15:52:41      INFO      =====Functional test for GET feature=====
+2016:03:23T15:52:41      INFO      PASS : GET feature functional test for title
+2016:03:23T15:52:41      INFO      PASS : GET feature functional test for fire_time
+2016:03:23T15:52:41      INFO      PASS : GET feature functional test for repeat
+2016:03:23T15:52:41      INFO      PASS : GET feature functional test for title
+2016:03:23T15:52:41      DEBUG      {0: {'fire_time': 'Tue Mar 22 00:59:30 IST 2016', 'repeat': False, 'title': 'New alarm test another'}, 1: {'fire_time': 'Tue Mar 22 00:59:30 IST 2016', 'repeat': False, 'title': 'New alarm test another'}}
+2016:03:23T15:52:41      INFO      We are in tear down, clearing all the alarms
+2016:03:23T15:52:41      DEBUG      {}
+2016:03:23T15:52:41      INFO      -----START------
+2016:03:23T15:52:41      INFO      We are in setup, creating alarm obj
+2016:03:23T15:52:41      INFO      =====Testing GET functionality for non existant ID=====
+2016:03:23T15:52:41      ERROR      Alarm not found for the given ID
+2016:03:23T15:52:41      DEBUG      {0: {'fire_time': 'Tue Mar 22 00:59:30 IST 2016', 'repeat': False, 'title': 'New alarm test'}}
+2016:03:23T15:52:41      INFO      We are in tear down, clearing all the alarms
+2016:03:23T15:52:41      DEBUG      {}
+2016:03:23T15:52:41      INFO      -----START------
+2016:03:23T15:52:41      INFO      We are in setup, creating alarm obj
+2016:03:23T15:52:41      INFO      =====Testing REMOVE functionality for non existant ID=====
+2016:03:23T15:52:41      ERROR      Alarm not found for the given ID
+2016:03:23T15:52:41      DEBUG      {0: {'fire_time': 'Tue Mar 22 00:59:30 IST 2016', 'repeat': False, 'title': 'New alarm test'}}
+2016:03:23T15:52:41      INFO      We are in tear down, clearing all the alarms
+2016:03:23T15:52:41      DEBUG      {}

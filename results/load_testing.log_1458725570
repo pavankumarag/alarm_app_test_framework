@@ -1,0 +1,16 @@
+2016:03:23T15:02:50      INFO      -----START------
+2016:03:23T15:02:50      INFO      We are in setup, creating alarm obj
+2016:03:23T15:02:50      INFO      Load testing the add functionality of alarm application
+2016:03:23T15:02:50      INFO      PASS : Successfully loaded alarams  1000 1000 alarms
+2016:03:23T15:02:50      INFO      We are in tear down, clearing all the alarms
+2016:03:23T15:02:50      INFO      -----START------
+2016:03:23T15:02:50      INFO      We are in setup, creating alarm obj
+2016:03:23T15:02:50      INFO      Load testing the remove functionality of  alarm application
+2016:03:23T15:02:50      INFO      PASS : Successfully loaded alarams  1000 1000 alarms
+2016:03:23T15:02:50      INFO      PASS : Successfully removed alarams  0 0 alarms
+2016:03:23T15:02:50      INFO      We are in tear down, clearing all the alarms
+2016:03:23T15:02:50      INFO      -----START------
+2016:03:23T15:02:50      INFO      We are in setup, creating alarm obj
+2016:03:23T15:02:50      INFO      Load testing the update functionality of  alarm application
+2016:03:23T15:02:50      INFO      PASS : Successfully loaded alarams  1000 1000 alarms
+2016:03:23T15:02:50      INFO      We are in tear down, clearing all the alarms

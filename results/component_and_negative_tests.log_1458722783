@@ -1,0 +1,44 @@
+2016:03:23T14:16:23      INFO      -----START------
+2016:03:23T14:16:23      INFO      We are in setup, creating alarm obj
+2016:03:23T14:16:23      INFO      =====Component test for ADD feature; check add feature behavior when string repeat passed=====
+2016:03:23T14:16:23      INFO      PASS : Add function adds one alarm
+2016:03:23T14:16:23      INFO      Data sent; title ->'New alarm test' fire_time -> 'Tue Mar 22 00:59:30 IST 2016' repeat ->''hello''
+2016:03:23T14:16:23      INFO      Data added {'fire_time': 'Tue Mar 22 00:59:30 IST 2016', 'repeat': True, 'title': 'New alarm test'} 
+2016:03:23T14:16:23      INFO      PASS : Data integrity test for repeat 'hello' True
+2016:03:23T14:16:23      INFO      We are in tear down, clearing all the alarms
+2016:03:23T14:16:23      INFO      -----START------
+2016:03:23T14:16:23      INFO      We are in setup, creating alarm obj
+2016:03:23T14:16:23      INFO      =====Component test for ADD feature; Passing insufficient argument when "add" takes 3=====
+2016:03:23T14:16:23      ERROR      TypeError: Passed only 1 argument , whereas add needs atleast 2 arguments to be passed
+2016:03:23T14:16:23      ERROR      TypeError: No argument passed , whereas add needs atleast 2 arguments to be passed
+2016:03:23T14:16:23      ERROR      TypeError: More than 3 arguments passed , whereas add needs atmost 3 arguments to be passed
+2016:03:23T14:16:23      INFO      PASS : Add function failed to add alarm due to insufficient arguments as expected
+2016:03:23T14:16:23      INFO      We are in tear down, clearing all the alarms
+2016:03:23T14:16:23      INFO      -----START------
+2016:03:23T14:16:23      INFO      We are in setup, creating alarm obj
+2016:03:23T14:16:23      INFO      =====Component test for UPDATE feature; check update feature behavior when string repeat passed=====
+2016:03:23T14:16:23      INFO      PASS : Add function adds one alarm
+2016:03:23T14:16:23      INFO      Data sent for update; title ->'New alarm test' fire_time -> 'Tue Mar 22 00:59:30 IST 2016' repeat ->''hello''
+2016:03:23T14:16:23      INFO      Data updated {'fire_time': 'Tue Mar 22 00:59:30 IST 2016', 'repeat': True, 'title': 'New alarm test'} 
+2016:03:23T14:16:23      INFO      We are in tear down, clearing all the alarms
+2016:03:23T14:16:23      INFO      -----START------
+2016:03:23T14:16:23      INFO      We are in setup, creating alarm obj
+2016:03:23T14:16:23      INFO      =====Component test for UPDATE feature; Passing insufficient argument when "add" takes 3=====
+2016:03:23T14:16:23      INFO      PASS : Updates an alarm when only title is passed
+2016:03:23T14:16:23      ERROR      TypeError: No argument passed , whereas add needs atleast 2 arguments to be passed
+2016:03:23T14:16:23      ERROR      TypeError: More than 4 arguments passed , whereas add needs atmost 4 arguments to be passed
+2016:03:23T14:16:23      INFO      Passing non existent id to update
+2016:03:23T14:16:23      INFO      PASS : UPDATE function adds one alarm when non-existant ID is passed
+2016:03:23T14:16:23      INFO      We are in tear down, clearing all the alarms
+2016:03:23T14:16:23      INFO      -----START------
+2016:03:23T14:16:23      INFO      We are in setup, creating alarm obj
+2016:03:23T14:16:23      INFO      =====Component test for GET feature; 'get' negative id and larger id=====
+2016:03:23T14:16:23      ERROR      Alarm not found when executed a.get(-1)
+2016:03:23T14:16:23      INFO      PASS: a.get(1000) gets an alarm {'fire_time': 'Tue Mar 22 00:59:30 IST 2016', 'repeat': True, 'title': 'New alarm test 999'}
+2016:03:23T14:16:23      INFO      We are in tear down, clearing all the alarms
+2016:03:23T14:16:23      INFO      -----START------
+2016:03:23T14:16:23      INFO      We are in setup, creating alarm obj
+2016:03:23T14:16:23      INFO      =====Component test for REMOVE feature; 'remove' negative id and larger id=====
+2016:03:23T14:16:23      ERROR      Exception:Alarm not found when executed a.remove(-1)
+2016:03:23T14:16:23      INFO      PASS : Remove function removes an alarm when executed with larger value, a.remove(1000)
+2016:03:23T14:16:23      INFO      We are in tear down, clearing all the alarms

@@ -1,0 +1,6 @@
+2016:03:22T03:28:01      INFO      We are in setup
+2016:03:22T03:28:01      INFO      Adding alarm component test -> Alarm().
+2016:03:22T03:28:01      INFO      PASS : Data integrity test for title
+2016:03:22T03:28:01      INFO      PASS : Data integrity test for fire_time
+2016:03:22T03:28:01      INFO      PASS : Data integrity test for repeat
+2016:03:22T03:28:01      INFO      We are in tear down

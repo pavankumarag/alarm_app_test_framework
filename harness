@@ -1,0 +1,56 @@
+#!/usr/bin/env python
+import time
+import logging, re
+import sys, os, subprocess
+import argparse
+
+def run_process(argv):
+    """
+    This is the function which takes the command formed executes it and stores
+    output in a variable which is used by harness to create plain text and 
+    xml file
+    """
+    starttime = time.time()
+    process = subprocess.Popen(cmd, close_fds=True, stdout=subprocess.PIPE,
+        stderr=subprocess.PIPE, shell=True)
+    stdout_lines = []
+    stderr_lines = []
+    output = ""    
+    for line in iter(process.stderr.readline, ''):
+       strLine = str(line).rstrip()
+       output += strLine
+       output += "\n"
+       print("" + strLine )
+     
+
+if __name__ == '__main__':
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--pythonpath", help="Provide a python path , --pythonpath", required=True)
+    parser.add_argument("--testscript", help="Provide a script location , --testscript", required=True)
+    parser.add_argument("--debug", help="to display debug logs",action="store_true")
+    args = parser.parse_args()
+    print "********************************************************************************\n"
+    print "Test File: %s" % args.testscript
+    print "\n"
+    if args.debug:
+        print "DEBUG MODE ENABLED\n"
+    print "PythonPath: %s\n"%sys.path
+    print "********************************************************************************\n"
+    
+    start_time = time.time()
+    if args.debug:
+        cmd ="PYTHONPATH=%s python %s --verbose" %(args.pythonpath,args.testscript)
+    else:
+        cmd ="PYTHONPATH=%s python %s " %(args.pythonpath,args.testscript)
+    script_output = run_process(args.testscript)
+    end_time = time.time()
+    
+    print "********************************************************************************\n"
+    print "Total time     => %s seconds\n" %(end_time - start_time)
+    print "Start Time    => %s \n" %start_time
+    print "Finish Time    => %s \n" %end_time
+    print "********************************************************************************\n"
+    
+	
+    
+	
